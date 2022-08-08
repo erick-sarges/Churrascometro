@@ -1,0 +1,67 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+    
+}
+@font-face {
+    font-family: Font01;
+    src: url(../fonts/Itim-Regular.ttf);
+}
+@font-face {
+    font-family: Font02;
+    src: url(../fonts/PermanentMarker-Regular.ttf);
+}
+
+h1{
+font-family: Font02;
+text-shadow: 0px 3px 0px #ffffff;
+
+}
+
+#container{
+text-align: center;
+transform: translateY(30px);
+margin: auto;
+max-width: 500px;
+
+
+}
+#content01{
+
+    max-width: 400px;
+    background-color: #6de0b4aa;
+    padding: 10px;
+    margin: auto;
+    transform: translate(50px);
+    box-sizing: border-box;
+    
+    
+    
+}
+
+.campos{
+    display: block;
+    border: none;
+    margin-top: 10px;
+    padding: 4px;
+    width: 70%;
+    font-family: Font01;
+    font-size: 17px;
+    border-radius: 5px;
+    transform: translateX(55px);
+    
+
+   
+    
+}
+
+button{
+
+    font-family: Font01;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    transform: translateX(-105px);
+}
